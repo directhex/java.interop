@@ -93,7 +93,7 @@ ifeq ($(OS),Linux)
 
 # This is for Ubuntu and derivatives (possibly Debian too)
 _DEFAULT_LINUX_JAVA_INCLUDE_DIRS  = /usr/lib/jvm/default-java/include/
-_LINUX_JAVA_FALLBACK_DIRS         = /usr/lib/jvm/java*
+_LINUX_JAVA_FALLBACK_DIRS         = /app/lib/java/jdk*
 _LINUX_JAVA_JNI_INCLUDE_DIR       = include
 
 _DESKTOP_JAVA_INCLUDE_DIRS = $(_DEFAULT_LINUX_JAVA_INCLUDE_DIRS)
